@@ -17,15 +17,30 @@ export type Database = {
       connections: {
         Row: {
           created_at: string
+          email: string
+          first_name: string | null
           id: number
+          last_name: string | null
+          message: string
+          subject: string | null
         }
         Insert: {
           created_at?: string
+          email: string
+          first_name?: string | null
           id?: number
+          last_name?: string | null
+          message: string
+          subject?: string | null
         }
         Update: {
           created_at?: string
+          email?: string
+          first_name?: string | null
           id?: number
+          last_name?: string | null
+          message?: string
+          subject?: string | null
         }
         Relationships: []
       }
