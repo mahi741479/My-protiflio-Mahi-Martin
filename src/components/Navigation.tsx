@@ -35,7 +35,12 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <Button className="btn-primary">
+            <Button 
+              className="btn-primary"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Let's Connect
             </Button>
           </div>
@@ -67,7 +72,13 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full btn-primary">
+                <Button 
+                  className="w-full btn-primary"
+                  onClick={() => {
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                    setIsMenuOpen(false);
+                  }}
+                >
                   Let's Connect
                 </Button>
               </div>

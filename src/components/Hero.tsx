@@ -33,11 +33,26 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
-              <Button className="btn-primary group">
+              <Button 
+                className="btn-primary group"
+                onClick={() => {
+                  // Create and trigger download of resume
+                  const link = document.createElement('a');
+                  link.href = '/resume-chennakesi-mahesh.pdf'; // You'll need to add this file to public folder
+                  link.download = 'Chennakesi-Mahesh-Resume.pdf';
+                  link.click();
+                }}
+              >
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download Resume
               </Button>
-              <Button variant="outline" className="btn-secondary">
+              <Button 
+                variant="outline" 
+                className="btn-secondary"
+                onClick={() => {
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 <Mail className="mr-2 h-4 w-4" />
                 Contact Me
               </Button>
