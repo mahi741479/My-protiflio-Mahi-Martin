@@ -8,24 +8,24 @@ import ocrIcon from "@/assets/ocr-icon.png";
 const Projects = () => {
   const projects = [
     {
-      title: "Firearm Simulator",
-      subtitle: "Indian Army Project",
-      description: "Interactive simulator UI with backend for defense-grade applications. Built for the Indian Army with intuitive React.js frontend and robust Java backend.",
-      detailedExplanation: "This was a critical defense project where I developed a comprehensive firearm training simulator. The system includes realistic UI/UX for weapon handling simulations, backend data management for training records, and integration with physical hardware components. Implemented secure user authentication, detailed analytics for training performance, and real-time feedback systems.",
+      title: "Firearm Simulation System (.22 Rifle)",
+      subtitle: "NCC Training - Simcon Technology Internship",
+      description: "Developed a simulation model of the .22 rifle for NCC training programs to improve cadet shooting accuracy and reduce training costs.",
+      detailedExplanation: "Developed a comprehensive firearm simulation system for NCC training (.22 rifle) during 6-month internship at Simcon Technology. Built realistic firearm mechanics including trigger response, recoil patterns, and bullet trajectory using Java and simulation frameworks. Integrated physics-based algorithms to simulate wind effect, bullet drop, and target accuracy metrics. Created a scoring and feedback system that tracks cadet performance and provides instant analysis for skill improvement. Worked with senior developers and defense trainers to ensure simulation accuracy and training effectiveness. Successfully contributed to enhancing virtual firearm safety training, reducing risks during early cadet practice. The project improved NCC training efficiency by providing cost-effective and risk-free rifle practice while demonstrating a functional prototype for cadet training.",
       image: armyLogo,
-      tags: ["React.js", "Java", "REST APIs", "Defense", "Hardware Integration"],
+      tags: ["Java", "Simulation", "3D Modeling", "Physics Engine", "Defense", "NCC Training"],
       icon: <Target className="h-6 w-6 text-primary" />,
-      highlight: "Army Project",
+      highlight: "Defense Project",
       codeUrl: "#",
       liveUrl: "#"
     },
     {
       title: "Advanced OCR Application",
-      subtitle: "Document Processing System",
-      description: "Converts scanned PDFs into searchable, editable documents. Advanced text recognition with high accuracy and user-friendly interface.",
-      detailedExplanation: "Built an enterprise-grade OCR system that processes various document formats with 95%+ accuracy. Features include batch processing, multi-language support, document classification, and automated data extraction. The system handles complex layouts, handwritten text recognition, and exports to multiple formats including Word, Excel, and searchable PDFs.",
+      subtitle: "Enterprise Document Processing System",
+      description: "Enterprise-grade OCR system that converts scanned PDFs into searchable, editable documents with 95%+ accuracy and multi-language support.",
+      detailedExplanation: "Built a comprehensive OCR application using Java and machine learning algorithms to process various document formats with exceptional accuracy. The system features batch processing capabilities for handling multiple documents simultaneously, multi-language support for international documents, and intelligent document classification. Implemented advanced text recognition algorithms that handle complex layouts, tables, and even handwritten text. The application exports processed documents to multiple formats including Word, Excel, and searchable PDFs. Integrated automated data extraction features that can identify and extract specific information like dates, amounts, and names from invoices, contracts, and forms. Built with scalable architecture to handle enterprise-level document processing volumes.",
       image: ocrIcon,
-      tags: ["React.js", "Java", "MySQL", "OCR", "Machine Learning"],
+      tags: ["React.js", "Java", "MySQL", "OCR", "Machine Learning", "Document Processing"],
       icon: <FileText className="h-6 w-6 text-primary" />,
       highlight: "AI-Powered",
       codeUrl: "#",
@@ -33,37 +33,25 @@ const Projects = () => {
     },
     {
       title: "Airlines Management System",
-      subtitle: "German Client Project",
-      description: "Backend system for airline ticketing & management. Developed during international collaboration with Pass Group Consultancy.",
-      detailedExplanation: "Comprehensive airline management system handling reservations, flight scheduling, passenger management, and billing. Built with microservices architecture for scalability, integrated payment gateways, real-time flight status updates, and automated notification systems. Collaborated with German team following Agile methodologies.",
+      subtitle: "International Client Project - Pass Group Consultancy",
+      description: "Comprehensive backend system for airline operations including ticketing, reservations, and management for German client collaboration.",
+      detailedExplanation: "Developed a robust airline management system during international collaboration with Pass Group Consultancy for a German client. Built with microservices architecture using Java Spring Boot to ensure scalability and maintainability. The system handles complex airline operations including flight reservations, passenger management, seat allocation, and comprehensive billing systems. Integrated multiple payment gateways for international transactions and implemented real-time flight status updates with automated notification systems. Features include dynamic pricing algorithms, loyalty program management, crew scheduling, and aircraft maintenance tracking. Collaborated with German development team following Agile methodologies, participating in daily standups and sprint planning. Implemented robust security measures for handling sensitive passenger data and financial transactions, ensuring GDPR compliance for European operations.",
       image: airlinesIcon,
-      tags: ["Java", "Spring Boot", "MySQL", "Enterprise", "Microservices"],
+      tags: ["Java", "Spring Boot", "MySQL", "Microservices", "Payment Gateway", "International"],
       icon: <Plane className="h-6 w-6 text-primary" />,
-      highlight: "International Project",
+      highlight: "International",
       codeUrl: "#",
       liveUrl: "#"
     },
     {
       title: "MezHub 3D Platform",
-      subtitle: "Freelancing Project (Ongoing)",
-      description: "3D modeling and visualization platform with real-time rendering capabilities. Custom quote generation system for 3D printing and modeling services.",
-      detailedExplanation: "Currently developing a comprehensive 3D platform that allows users to upload, customize, and visualize 3D models. Features include real-time 3D rendering using Three.js, automated quote generation based on model complexity, material selection, and printing parameters. Integrated payment system and order management for seamless customer experience.",
-      image: ocrIcon, // Using placeholder, you can add a specific icon
-      tags: ["React.js", "Three.js", "Node.js", "3D Modeling", "Payment Integration"],
+      subtitle: "Freelancing Project - 3D Modeling & Visualization",
+      description: "Comprehensive 3D platform for modeling, visualization, and custom quote generation for 3D printing and modeling services.",
+      detailedExplanation: "Currently developing an innovative 3D platform that revolutionizes how users interact with 3D models and request custom manufacturing. Built with React.js frontend and Three.js for real-time 3D rendering, allowing users to upload, customize, and visualize 3D models in the browser. Implemented sophisticated quote generation algorithms that calculate pricing based on model complexity, material selection, printing parameters, and finishing options. The platform features real-time collaboration tools, version control for 3D designs, and integration with popular CAD software. Built comprehensive order management system with payment processing, progress tracking, and automated customer notifications. Includes advanced features like automatic mesh optimization, STL file validation, and print feasibility analysis. The platform serves both individual makers and enterprise clients, with scalable pricing tiers and bulk order management.",
+      image: ocrIcon,
+      tags: ["React.js", "Three.js", "Node.js", "3D Modeling", "Payment Integration", "Freelance"],
       icon: <Box className="h-6 w-6 text-primary" />,
       highlight: "Ongoing",
-      codeUrl: "#",
-      liveUrl: "#"
-    },
-    {
-      title: "GetQuote System",
-      subtitle: "Quote Management Platform",
-      description: "Dynamic quote generation system for service-based businesses. Automated pricing, custom templates, and client management.",
-      detailedExplanation: "Built a flexible quote generation platform that automates pricing calculations based on project parameters. Features include customizable quote templates, client relationship management, automated follow-ups, conversion tracking, and integrated invoicing. Supports multiple pricing models including hourly, fixed-price, and tiered pricing.",
-      image: airlinesIcon, // Using placeholder
-      tags: ["React.js", "Node.js", "MongoDB", "Payment Gateway", "CRM"],
-      icon: <DollarSign className="h-6 w-6 text-primary" />,
-      highlight: "Business Tool",
       codeUrl: "#",
       liveUrl: "#"
     }
