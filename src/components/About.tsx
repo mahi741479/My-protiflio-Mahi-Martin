@@ -104,7 +104,7 @@ const About = () => {
                 <div className="border-l-2 border-primary/20 pl-4 ml-6 space-y-3">
                   <p className="text-sm"><span className="font-medium">Java Developer Course</span> - J Spiders Institute</p>
                   <p className="text-sm"><span className="font-medium">Internship</span> - Simcon Technologies (Army Projects)</p>
-                  <p className="text-sm"><span className="font-medium">Skill Development Program</span> - Pass Group Consultancy (Germany)</p>
+                  <p className="text-sm"><span className="font-medium">Skill Development Program</span> - Pass Group Consultancy </p>
                 </div>
               </div>
             </div>

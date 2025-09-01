@@ -34,7 +34,7 @@ const Projects = () => {
       liveUrl: "#",
       duration: "6 Months",
       organization: "NCC (Simcon Technology)",
-      role: "Junior Java Developer / Simulation Developer",
+      role: "Junior Java Developer and react.js Developer",
       achievements: [
         "Improved NCC training efficiency by providing cost-effective and risk-free rifle practice",
         "Successfully demonstrated a functional prototype for cadet training on the .22 rifle",
@@ -54,7 +54,7 @@ const Projects = () => {
       highlight: "AI-Powered",
       codeUrl: "#",
       liveUrl: "#",
-      duration: "4 Months",
+      duration: "2 Months",
       organization: "Personal Project",
       role: "Full-Stack Developer",
       achievements: [
@@ -66,7 +66,7 @@ const Projects = () => {
     },
     {
       title: "Airlines Management System",
-      subtitle: "International Client Project - Pass Group Consultancy",
+      subtitle: "Skill development pogram - Pass Group Consultancy",
       description: "Comprehensive backend system for airline operations including ticketing, reservations, and management for German client collaboration.",
       detailedExplanation: "Developed a robust airline management system during international collaboration with Pass Group Consultancy for a German client. Built with microservices architecture using Java Spring Boot to ensure scalability and maintainability. The system handles complex airline operations including flight reservations, passenger management, seat allocation, and comprehensive billing systems. Integrated multiple payment gateways for international transactions and implemented real-time flight status updates with automated notification systems. Features include dynamic pricing algorithms, loyalty program management, crew scheduling, and aircraft maintenance tracking. Collaborated with German development team following Agile methodologies, participating in daily standups and sprint planning. Implemented robust security measures for handling sensitive passenger data and financial transactions, ensuring GDPR compliance for European operations.",
       image: airlinesIcon,
@@ -76,7 +76,7 @@ const Projects = () => {
       highlight: "International",
       codeUrl: "#",
       liveUrl: "#",
-      duration: "8 Months",
+      duration: "1 Month",
       organization: "Pass Group Consultancy (German Client)",
       role: "Backend Java Developer",
       achievements: [
@@ -98,7 +98,7 @@ const Projects = () => {
       highlight: "Ongoing",
       codeUrl: "#",
       liveUrl: "#",
-      duration: "Ongoing (6+ Months)",
+      duration: "Ongoing (4+ Months)",
       organization: "Freelance Client",
       role: "Full-Stack Developer & 3D Specialist",
       achievements: [

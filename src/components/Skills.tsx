@@ -5,7 +5,7 @@ const Skills = () => {
     {
       title: "Frontend",
       icon: <Palette className="h-6 w-6 text-primary" />,
-      skills: ["React.js", "Next.js", "HTML", "CSS", "JavaScript", "Tailwind", "Bootstrap"]
+      skills: ["React.js",  "HTML", "CSS", "JavaScript", "Tailwind", "Bootstrap"]
     },
     {
       title: "Backend",

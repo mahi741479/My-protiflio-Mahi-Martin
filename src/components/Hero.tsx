@@ -38,7 +38,7 @@ const Hero = () => {
                 onClick={() => {
                   // Create and trigger download of resume
                   const link = document.createElement('a');
-                  link.href = '/resume-chennakesi-mahesh.pdf'; // You'll need to add this file to public folder
+                  link.href = 'https://drive.google.com/file/d/1Mru00anoUsvdlLSM1jp1SCmIUXc03geX/view?usp=drivesdk'; // You'll need to add this file to public folder
                   link.download = 'Chennakesi-Mahesh-Resume.pdf';
                   link.click();
                 }}
